@@ -21,5 +21,5 @@ TEST_CASE("average is NaN for empty array") {
     
     //Design the REQUIRE statement here.
     //Use http://www.cplusplus.com/reference/cmath/isnan/
-    REQUIRE(isnan(computedStats.average));
+    REQUIRE(isnan(computedStats.average) == TRUE);
 }
