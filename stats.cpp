@@ -1,5 +1,5 @@
 #include "stats.h"
-
+#include <bits/stdc++.h>
 namespace Statistics {
     
     Stats Statistics::ComputeStatistics(const std::vector<float>& v) {
