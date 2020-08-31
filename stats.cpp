@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 namespace Statistics {
     
-    Stats Statistics::ComputeStatistics(const std::vector<float>& v) {
+    Stats ComputeStatistics(const std::vector<float>& v) {
         //Implement statistics here
         Stats obj;
         auto n = v.size();
