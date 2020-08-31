@@ -21,6 +21,5 @@ TEST_CASE("average is NaN for empty array") {
     
     //Design the REQUIRE statement here.
     //Use http://www.cplusplus.com/reference/cmath/isnan/
-    auto computedStats = Statistics::ComputeStatistics({1.5, 8.9, 3.2, 4.5});
     REQUIRE(isnan(computedStats.average));
 }
