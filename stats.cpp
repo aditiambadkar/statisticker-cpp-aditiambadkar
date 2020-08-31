@@ -7,7 +7,7 @@ class Stats
     float min;
 };
 
-Stats Statistics::ComputeStatistics(const std::vector<___>& v) {
+Stats Statistics::ComputeStatistics(const std::vector<float>& v) {
     //Implement statistics here
     Stats obj;
     auto n = v.size();
