@@ -3,11 +3,10 @@
 namespace Statistics {
     
     class Stats {
-        private:
+        public:
             float average;
             float max;
             float min;
     };   
     Stats ComputeStatistics(const std::vector<float>& );
-
 }
