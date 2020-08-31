@@ -5,8 +5,8 @@ namespace Statistics {
     Stats ComputeStatistics(const std::vector<float>& floatVector) {
         //Implement statistics here
         Stats statsObj;
-        /*auto size_floatVector = floatVector.size();
-        if(size_floatVector == 0)
+        auto size_floatVector = floatVector.size();
+        /*if(size_floatVector == 0)
         {
             statsObj.average = 0;
             statsObj.max = 0;
