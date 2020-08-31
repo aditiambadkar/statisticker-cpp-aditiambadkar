@@ -2,7 +2,7 @@
 
 namespace Statistics {
     
-    class Stats {
+    struct Stats {
         public:
             float average;
             float max;
