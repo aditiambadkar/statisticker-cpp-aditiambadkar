@@ -6,7 +6,7 @@ namespace Statistics {
         //Implement statistics here
         Stats obj;
         auto n = v.size();
-        if(v.size == 0)
+        if(v.size() == 0)
         {
             obj.average = 0;
             obj.max = 0;
