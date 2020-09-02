@@ -7,7 +7,6 @@ namespace Statistics {
         auto size_floatVector = floatVector.size();
         if(size_floatVector == 0)
         {
-            std::cout<<"avg="<<statsObj.average<<std::endl;
             return statsObj;
         }
         statsObj.average = accumulate( floatVector.begin(), floatVector.end(), 0.0) / size_floatVector;
