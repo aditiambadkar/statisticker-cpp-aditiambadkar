@@ -2,6 +2,8 @@
 #include <bits/stdc++.h>
 namespace Statistics {
     
+    struct Stats statsObj = {NAN, NAN, NAN};
+    
     Stats ComputeStatistics(const std::vector<float>& floatVector) {
         auto size_floatVector = floatVector.size();
         if(size_floatVector == 0)
