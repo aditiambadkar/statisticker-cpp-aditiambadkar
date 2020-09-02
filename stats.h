@@ -1,5 +1,5 @@
 #include <vector>
-#include <math.h>
+
 namespace Statistics {
     
     struct Stats {
