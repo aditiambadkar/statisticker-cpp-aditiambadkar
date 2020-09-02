@@ -3,7 +3,6 @@
 namespace Statistics {
     
     Stats ComputeStatistics(const std::vector<float>& floatVector) {
-        Stats statsObj;
         auto size_floatVector = floatVector.size();
         if(size_floatVector == 0)
         {
