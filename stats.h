@@ -1,5 +1,5 @@
 #include <vector>
-
+#include <math.h>
 namespace Statistics {
     
     struct Stats {
@@ -7,5 +7,6 @@ namespace Statistics {
         float max;
         float min;
     };   
+    Stats statsObj = {NAN, NAN, NAN};
     Stats ComputeStatistics(const std::vector<float>& );
 }
