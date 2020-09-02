@@ -7,6 +7,6 @@ namespace Statistics {
         float max;
         float min;
     };   
-    Stats statsObj = {NAN, NAN, NAN};
+    extern struct Stats statsObj;
     Stats ComputeStatistics(const std::vector<float>& );
 }
